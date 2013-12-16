@@ -1,0 +1,60 @@
+thead th{
+    padding:5px; 
+    color:#ffb849;
+	
+}
+.empty{
+    background:transparent;
+    border:none;
+}
+
+p span {
+color: #FFB849;
+}
+
+tbody{
+height: 500px;
+overflow:auto;
+}
+/* add scroll bar  */
+thead > tr, tbody{
+display:block;}
+
+#feature-table {  border-collapse: collapse;}
+
+#feature-table td { width: 90px; 
+padding: 3px 1px; 
+text-align: center; border-left: 1px solid yellow; border-right: 1px solid black; }
+
+#feature-table .lcol {font-size:90%;color:#ffb849;background-color:#000;text-align:right; width:200px;border-left: 1px solid black;}
+#feature-table .icol {width:32px; }
+#feature-table .iimg {width:32px;}
+
+#feature-table .final-row td { padding: 24px 5px; }
+#feature-table img {vertical-align:middle;}
+.basic   { background-color: #000; background-color: hsla(85,  30%, 80%, 1); }
+
+.dec  { background-color: hsla(40, 95%, 25%, 1); }
+.des  { background-color: hsla(40, 95%, 35%, 1);}
+.daz { background-color:  hsla(40, 95%, 45%, 1);  }
+
+.odd1 { background-color: hsla( 85,  10%, 20%, 1); }
+.odd2 {  background-color: hsla(40, 75%, 35%, 1) }
+.odd3 {  background-color: hsla(40, 75%, 35%, 1); }
+.odd4 {  background-color: hsla(40, 75%, 40%, 1); }
+
+
+ /*
+.dec    { background-color: #c1dcb7; background-color: hsla(110, 30%, 80%, 1); }
+.des { background-color: #bad6c8; background-color: hsla(150, 30%, 80%, 1); }
+.daz     { background-color: #bbd3dc; background-color: hsla(190, 30%, 80%, 1); }
+
+.odd1 { background-color: #edf3e2; background-color: hsla(85,  30%, 94%, 1); }
+.odd2 { background-color: #edf3e2; background-color: hsla(85,  30%, 94%, 1); }
+.odd3 { background-color: #edf3e2; background-color: hsla(150, 30%, 94%, 1); }
+.odd4 { background-color: #e2ecf0; background-color: hsla(190, 30%, 94%, 1); }
+*/
+.odd .table-col-1 { background-color: #edf3e2; background-color: hsla(85,  30%, 94%, 1); }
+.odd .table-col-2 { background-color: #edf3e2; background-color: hsla(110, 30%, 94%, 1); }
+.odd .table-col-3 { background-color: #edf3e2; background-color: hsla(150, 30%, 94%, 1); }
+.odd .table-col-4 { background-color: #e2ecf0; background-color: hsla(190, 30%, 94%, 1); }
